@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crimson University | Home</title>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Campus Life App</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="app-hero">
+    <div class="container">
+      <p class="eyebrow">Welcome to Campus Life</p>
+      <h1>Your Campus.<br>Your Community.</h1>
+      <p>
+        Everything you need to make the most of college life — events,
+        dining, resources, wellness, and student support — all in one place.
+      </p>
+
+      <button id="welcomeBtn" class="btn btn-primary mt-3">
+        Click Welcome Message
+      </button>
+      <p id="welcomeMessage" class="welcome-text"></p>
+    </div>
+  </header>
+
+  <section class="quick-stats">
+    <div class="container">
+      <div class="row text-center g-3">
+        <div class="col-md-3">
+          <div class="quick-stat">
+            <strong>3,200+</strong>
+            <span>Students</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="quick-stat">
+            <strong>80+</strong>
+            <span>Programs</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="quick-stat">
+            <strong>40+</strong>
+            <span>Clubs</span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="quick-stat">
+            <strong>150+</strong>
+            <span>Yearly Events</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="app-section">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="app-card">
+              <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="College campus aerial view">
+              <div class="card-body">
+                <h3>Beautiful Campus</h3>
+                <p>Explore welcoming study spaces, green areas, and student-centered facilities.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="app-card">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80" alt="Students at campus event">
+              <div class="card-body">
+                <h3>Vibrant Events</h3>
+                <p>Join social events, workshops, club meetings, athletics, and campus traditions.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="app-card">
+              <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=900&q=80" alt="Campus dining">
+              <div class="card-body">
+                <h3>Great Dining</h3>
+                <p>Check dining hours, weekly menus, and meal options for busy student schedules.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-block">
+      <div class="container">
+        <div class="info-box">
+          <h2>Campus Weather</h2>
+          <p>Live conditions and daily updates can help students plan their day.</p>
+          <button id="quoteBtn" class="btn btn-outline-light">Show Daily Motivation</button>
+          <p id="quoteText" class="mt-3"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="app-section">
+      <div class="container">
+        <h2 class="section-title">Explore Campus Life</h2>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <a href="events.html" class="link-card">
+              <h3>Upcoming Events</h3>
+              <p>Register for campus events happening this semester.</p>
+              <span>View Events →</span>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="resources.html" class="link-card">
+              <h3>Student Resources</h3>
+              <p>Browse dining, wellness, academic support, and campus services.</p>
+              <span>View Resources →</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Campus Life App — Crimson University</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="java/script.js"></script>
+</body>
+</html>
